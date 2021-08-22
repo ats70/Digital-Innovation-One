@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="atssa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-14 10:10:08 "/>
+        <attribute name="created" value="YXRzc2E7TEFQVE9QLTgwMDlJVkZOOzIwMjEtMDctMTQ7IjA4OjQ3OjU3ICI7Mjc2OA=="/>
+        <attribute name="edited" value="YXRzc2E7TEFQVE9QLTgwMDlJVkZOOzIwMjEtMDctMTQ7IjEwOjEwOjA4ICI7MzsyODU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Jan, fev, mar, abr" type="Real" array="False" size=""/>
+            <declare name="M&#233;dia, Maior, Menor" type="Real" array="False" size=""/>
+            <input variable="jan"/>
+            <input variable="fev"/>
+            <input variable="mar"/>
+            <input variable="abr"/>
+            <output expression="jan" newline="True"/>
+            <output expression="fev" newline="True"/>
+            <output expression="mar" newline="True"/>
+            <output expression="abr" newline="True"/>
+            <assign variable="M&#233;dia" expression="(jan+fev+mar+abr)/4"/>
+            <output expression="M&#233;dia" newline="True"/>
+            <assign variable="Maior" expression="0.1 * M&#233;dia"/>
+            <assign variable="Menor" expression="0.03 * M&#233;dia"/>
+            <if expression="M&#233;dia&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; atingiu sua meta, ganhar&#225; um B&#244;nus de 10% sobre sua venda&quot;" newline="True"/>
+                    <output expression="Maior" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; ganhar&#225; um B&#244;nus de 3% sobre suas vendas&quot;" newline="True"/>
+                    <output expression="Menor" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

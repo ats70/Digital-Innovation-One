@@ -1,0 +1,64 @@
+Introdução a Lógica de Programação
+
+
+1 - O que são Algoiritmos e Pseudocódigos
+
+Algorítmo: é Uma sequência de passos que resolve um problema;
+
+Pseudocódigo: é uma forma genérica de escrever um algorítmo, utilizando linguagem simples... Português;
+
+https://www.proprofsgames.com/wolf-sheep-and-cabbage/
+
+
+https://rachacuca.com.br/jogos/pinguins-numa-fria/
+
+Iniciar
+Sobe Pinguin Filho azul
+Sobe Pinguin Pai azul
+Atravessa
+Desce Pinguin Pai azul
+Atravessa
+Sobe Pinguin Filho verde
+Atravessa
+Desce Pinguin Filho azul
+Atravessa
+Sobe Pinguin Pai verde
+Atravessa
+Desce Pinguin Pai verde
+Atravessa
+Sobe Pinguin Filho vermelho
+Atravessa
+Desce Pinguin Filho verde
+Atravessa
+Sobe Pinguin Pai vermelho
+Atravessa
+Desce Pinguin Pai vermelho
+Desce Pinguin Filho vermelho
+Fim
+
+
+2 - Aprendendo fluxograma, variáveis e constantes
+
+	Aula 04 Tomadas de decisão e expressões
+
+Expressões Aritméticas
+	Soma: (+)
+	Subtração: (-)
+	Multiplicação: (*)
+	Divisão: (/)
+	Potenciação: (^)
+	Pocentagem: (%)
+
+Expressões Literais
+	São expressões com  constantes e/ou variáveis que tem como resultado valores literais.
+
+		Ex:
+			nome="José"
+
+			nota=n1+n2+n3+n4/4
+
+Expressões Aritméticas e Literais
+
+	APP Flowgorithm Baixar.
+
+ 
